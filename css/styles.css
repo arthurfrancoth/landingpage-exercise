@@ -5,3 +5,25 @@ body {
     font-size: 16px;
     color:#1f2937;
 }
+
+header {
+
+}
+
+    h1.nav-logo {}
+
+    nav.navbar {}
+
+    nav.navbar ul {}
+
+/* Sections */
+section#hero-section {}
+
+section#services-section {}
+
+section#quote-section {}
+
+section#cta-section {}
+
+/* Footer */
+footer {}
