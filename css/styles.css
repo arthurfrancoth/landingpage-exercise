@@ -26,6 +26,8 @@ header {
     }
 
 /* Sections */
+section {margin:25px 0;}
+
 /* section#hero-section {} */
 
 /* section#services-section {} */
@@ -66,7 +68,7 @@ section#cta-section {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 30px;
+        padding: 20px 32px;
         min-width: 750px;
     }
     /* CTA button */
@@ -81,7 +83,7 @@ section#cta-section {
 
 /* Footer */
 footer {
-    margin: 48px auto;
+    margin: 25px auto;
     padding:15px 0 15px 0;
     background-color: #1f2937;
     color:#E5E7EB; 
