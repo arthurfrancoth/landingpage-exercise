@@ -46,6 +46,16 @@ figure.thumb-square {
         object-position: center; /* Centers the crop (default) */
     }
 
+    /* CTA button */
+    .btn-default {
+        background-color: #3883F6;
+        border:solid #f9faf8 2px;
+        border-radius: 8px;
+        color: #f9f9f9;
+        height: 40px;
+        padding: 2px 24px;
+    }
+
 /* Sections */
 section {margin:25px 0;}
 
@@ -63,7 +73,9 @@ section#hero-section {
     background-size: cover;
     color:#f9faf8;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
     h1.hero-title {
         color:#f9faf8;
@@ -127,15 +139,7 @@ section#cta-section {
         padding: 20px 32px;
         min-width: 750px;
     }
-    /* CTA button */
-    .btn-default {
-        background-color: #3883F6;
-        border:solid #f9faf8 1px;
-        border-radius: 3px;
-        color: #f9f9f9;
-        height: 40px;
-        padding: 2px auto;
-    }
+
 
 /* Footer */
 footer {
