@@ -26,4 +26,11 @@ section#quote-section {}
 section#cta-section {}
 
 /* Footer */
-footer {}
+footer {
+    margin: 48px auto;
+    padding:15px 0 15px 0;
+    background-color: #1f2937;
+    color:#E5E7EB; 
+    text-align:center;
+    font-size: 12px;
+}
