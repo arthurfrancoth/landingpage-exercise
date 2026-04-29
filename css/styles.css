@@ -18,7 +18,7 @@ header {
         font-size: 24px;
     }
 
-    nav.navbar {}
+    /* nav.navbar {} */
 
     nav.navbar ul li {
         display: inline; 
@@ -26,9 +26,9 @@ header {
     }
 
 /* Sections */
-section#hero-section {}
+/* section#hero-section {} */
 
-section#services-section {}
+/* section#services-section {} */
 
 section#quote-section {
     background-color: #e5e7eb;
@@ -54,7 +54,30 @@ section#quote-section {
     }
 
 
-section#cta-section {}
+section#cta-section {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+    div.cta-container {
+        border-radius: 5px;
+        background-color: #3883F6;
+        color: #f9faf8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        min-width: 750px;
+    }
+    /* CTA button */
+    .btn-default {
+        background-color: #3883F6;
+        border:solid #f9faf8 1px;
+        border-radius: 3px;
+        color: #f9f9f9;
+        height: 40px;
+        padding: 2px auto;
+    }
 
 /* Footer */
 footer {
