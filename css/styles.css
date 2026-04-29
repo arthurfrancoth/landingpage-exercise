@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-around;
     background-color:#1f2937;
-    color: #fff;
+    color: #f9faf8;
 }
 
     h1.nav-logo {
@@ -28,7 +28,22 @@ header {
 /* Sections */
 section {margin:25px 0;}
 
-/* section#hero-section {} */
+section#hero-section {
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+    min-height:680px;
+    background: url("../images/hero-image_background-yosemitevalley.jpg") no-repeat top left;
+    background-size: cover;
+    color:#f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+    h1.hero-title {
+        color:#f9faf8;
+        font-size: 48px;
+        font-weight: 900;
+    }
 
 /* section#services-section {} */
 
