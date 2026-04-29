@@ -21,7 +21,24 @@ section#hero-section {}
 
 section#services-section {}
 
-section#quote-section {}
+section#quote-section {
+    background-color: #e5e7eb;
+    padding: 25px 0 25px 0;
+    display:flex;
+    
+    justify-content: center;
+}
+    div.quote {
+        align-items: center; 
+        max-width: 550px;   
+    }
+
+    div.quote h1 {
+        font-size: 36px;
+        color: #1f2937;
+        font-weight: 300;
+        font-style: italic;
+    }
 
 section#cta-section {}
 
