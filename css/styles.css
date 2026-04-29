@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     color:#1f2937;
 }
@@ -25,20 +25,25 @@ section#quote-section {
     background-color: #e5e7eb;
     padding: 25px 0 25px 0;
     display:flex;
-    
     justify-content: center;
 }
     div.quote {
         align-items: center; 
-        max-width: 550px;   
+        max-width: 750px;   
     }
 
-    div.quote h1 {
+    div.quote h4 {
         font-size: 36px;
         color: #1f2937;
         font-weight: 300;
         font-style: italic;
     }
+
+    div.quote p.quote-author {
+        font-weight: bold;
+        text-align: right;
+    }
+
 
 section#cta-section {}
 
